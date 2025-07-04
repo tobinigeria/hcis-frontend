@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Inter medium";
+    src: url(../assets/Fonts/Inter_28pt-Medium.ttf);
+  }
+  @font-face {
+    font-family: "Semi bold";
+    src: url(../assets/Fonts/Inter_28pt-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Extra bold";
+    src: url(../assets/Fonts/Inter_28pt-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: "Regular";
+    src: url(../assets/Fonts/Inter_28pt-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Bold";
+    src: url(../assets/Fonts/Inter_28pt-Bold.ttf);
+  }
+  .inter-medium {
+    font-family: "Inter medium";
+  }
+  .inter-regular {
+    font-family: " Regular";
+  }
+  
+  .inter-semibold {
+    font-family: "Semi bold";
+  }
+  
+  .inter-extrabold {
+    font-family: "Extra bold";
+  }
+  .inter-bold {
+    font-family: "Bold";
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+.Navbar{
+  height: 102px;
+  background-color: #E9F7FF;
+
+
+  .dropdowns{
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navButton{
+    width: 111px;
+    height: 52px;
+    background-color: white;
+  }
+
+  NavDropdown{
+    font-size: 16px;
+  }
+}
+
+.MyHome{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .MyImages{
+    margin-block-start: 70px;
+    padding-block-start: 61px;
+  
+    .images{
+      display: flex;
+      flex-direction: row;
+      gap: 24.11px;
+      /* padding-inline-start: 81.22px; */
+    }
+  
+    .left{
+      display: flex;
+      flex-direction: column;
+      gap: 25.56px;
+  
+      .top{
+        width: 269.89px; 
+        height: 265.22px;
+      }
+    }
+  
+  
+    .right{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    
+      .ellipse{
+        position: absolute;
+        
+      }
+    
+      .ellipse2{
+        margin-inline-start: 123.44px;
+        margin-block-start: -61px;
+      }
+    }
+  
+  }
+
+  .rightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block-start: 159.5px;
+    width: 471.44px;
+    
+
+
+    h2{
+      font-size: 58px;
+      color: #171100;
+      margin-block-end: 16.33px;
+    }
+    
+    p{
+      font-size: 18px;
+      color: #5F5B53;
+      margin-block-end: 23px;
+    }
+
+    a{
+      text-decoration: none;
+      height: 64px;
+      width: 246px;
+      border-radius: 32px;
+      color: #ffffff;
+      font-family: Poppins;
+      background-color: #0684C9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
