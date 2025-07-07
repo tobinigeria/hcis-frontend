@@ -1,16 +1,12 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import OnboardingNav from "./components/onboardingNav"
-import Home from "./components/homePage"
+
+import Home from "./components/onboardingNav"
 
 
 function App() {
   return (
-    <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-    </Router>
+    <Home/>
   
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-import OnboardingNav from "./components/homePage"
+import App from './App';
+import OnboardingNav from "./components/signUpLeft"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

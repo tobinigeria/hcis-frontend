@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import mylogo from "../images/Group.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -153,9 +154,11 @@ function BasicExample() {
                   gap: "12px",
                   justifyContent: "center",
                   alignContent: "center",
-                  paddingBlock: "0"
+                  paddingBlock: "0",
                 }}
               >
+
+                
                 <Button
                   className="inter-medium navButton"
                   style={{
@@ -172,36 +175,34 @@ function BasicExample() {
                   }}
                   active
                 >
-                  Button
+                  Login
                 </Button>
 
-                <Button
-                  className="inter-medium navButton"
-                  style={{
-                    width: "111px",
-                    height: "52px",
-                    backgroundColor: "#0684C9",
-                    borderRadius: "5px",
-                    border: "1px solid #0684C9",
-                    paddingBlock: "14px",
-                    paddingInline: "28px",
-                    color: "#FFFFFF",
-                    fontSize: "",
-                    cursor: "pointer",
-                  }}
-                  active
-                >
-                  Button
-                </Button>
+                  <Button
+                    className="inter-medium navButton"
+                    style={{
+                      width: "111px",
+                      height: "52px",
+                      backgroundColor: "#0684C9",
+                      borderRadius: "5px",
+                      border: "1px solid #0684C9",
+                      paddingBlock: "14px",
+                      paddingInline: "28px",
+                      color: "#FFFFFF",
+                      fontSize: "18px",
+                      cursor: "pointer",
+                    }}
+                    active
+                  >
+                    Sign Up
+                  </Button>
+                
               </div>
             </Nav>
           </Navbar.Collapse>
         </div>
       </Container>
     </Navbar>
-
-
-
   );
 }
 
