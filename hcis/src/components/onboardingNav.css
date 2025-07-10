@@ -215,14 +215,22 @@
   }
 
 
+ 
+}
+
+.signUpScreen{
+  display: flex;
+  
+
+
   .Right{
     width: 414px;
-    height: 669px;
+    height: 725px;
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-inline-start: 149px;
-    margin-block-start: 150px;
+    margin-inline: 149px;
+    margin-block: 150px;
 
     h2{
       font-size: 36px;
@@ -338,6 +346,72 @@
           text-decoration: none;
           color: #0684C9;
         }
+      }
+    }
+  }
+}
+
+.confirm{
+  display: flex;
+
+  .check{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-inline-start: 149px;
+  }
+
+  h2{
+    font-size: 36px;
+    line-height: 44px;
+    width: 414px;
+    color: #1A202C;
+  }
+
+  p{
+    font-size: 16px;
+    line-height: 24px;
+    width: 414px;
+    color: #000000;
+
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    input{
+      height: 55px;
+      border: 1px solid #f8f5ef;
+      width: 414px;
+      border-radius: 10px;
+      color: #2e2e2e;
+      padding-inline-start: 12px;
+      border-radius: 10px;
+    }
+
+    button{
+      width: 414px;
+      height: 52px;
+      border-radius: 5px;
+      background-color: #0684C9;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        text-align: center;
       }
     }
   }
